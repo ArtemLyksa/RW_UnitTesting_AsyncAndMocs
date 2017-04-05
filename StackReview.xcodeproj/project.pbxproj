@@ -30,6 +30,9 @@
 		42AFF7451D98696300DF841D /* CloudNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFF7441D98696300DF841D /* CloudNetworkError.swift */; };
 		787C1FC91BB3AC5E000B7EA1 /* PancakeHouseCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C1FC81BB3AC5E000B7EA1 /* PancakeHouseCollection.swift */; };
 		FEB20F5B1E9578DC00035FE3 /* PancakeHouseCollectionIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB20F5A1E9578DC00035FE3 /* PancakeHouseCollectionIntegrationTests.swift */; };
+		FEB20F5D1E957D1500035FE3 /* CloudNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB20F5C1E957D1500035FE3 /* CloudNetworkService.swift */; };
+		FEB20F5E1E957D9900035FE3 /* test_pancake_houses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 421CB1761DCD9CB100752371 /* test_pancake_houses.plist */; };
+		FEB20F601E957DC000035FE3 /* MockCloudNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB20F5F1E957DC000035FE3 /* MockCloudNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,8 @@
 		FEB20F4E1E95784600035FE3 /* StackReviewIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackReviewIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB20F521E95784600035FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB20F5A1E9578DC00035FE3 /* PancakeHouseCollectionIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PancakeHouseCollectionIntegrationTests.swift; sourceTree = "<group>"; };
+		FEB20F5C1E957D1500035FE3 /* CloudNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudNetworkService.swift; sourceTree = "<group>"; };
+		FEB20F5F1E957DC000035FE3 /* MockCloudNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCloudNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +253,7 @@
 			children = (
 				42AFF7441D98696300DF841D /* CloudNetworkError.swift */,
 				42AFF7411D9868CF00DF841D /* CloudNetworkManager.swift */,
+				FEB20F5C1E957D1500035FE3 /* CloudNetworkService.swift */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			children = (
 				FEB20F581E95784E00035FE3 /* Cases */,
 				FEB20F591E95785200035FE3 /* Supporting Files */,
+				FEB20F5F1E957DC000035FE3 /* MockCloudNetworkService.swift */,
 			);
 			path = StackReviewIntegrationTests;
 			sourceTree = "<group>";
@@ -406,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB20F5E1E957D9900035FE3 /* test_pancake_houses.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +430,7 @@
 				420902481D9398CB004DAD49 /* PancakeRating.swift in Sources */,
 				22A7E5721B3AE0E600F269A3 /* PancakeHouseViewController.swift in Sources */,
 				222BD2B01B3C3CE900A85BE7 /* MultilineLabelThatWorks.swift in Sources */,
+				FEB20F5D1E957D1500035FE3 /* CloudNetworkService.swift in Sources */,
 				420902461D939859004DAD49 /* PriceGuide.swift in Sources */,
 				42AFF7421D9868CF00DF841D /* CloudNetworkManager.swift in Sources */,
 				222BD2B21B3C4DE400A85BE7 /* AboutViewController.swift in Sources */,
@@ -446,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB20F601E957DC000035FE3 /* MockCloudNetworkService.swift in Sources */,
 				FEB20F5B1E9578DC00035FE3 /* PancakeHouseCollectionIntegrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,7 +22,7 @@
 
 import Foundation
 
-public class CloudNetworkManager {
+public class CloudNetworkManager: CloudNetworkService {
   
   public private(set) var isAuthenticated = false
   
